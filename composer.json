@@ -1,0 +1,21 @@
+{
+    "name": "mandrill/mandrill",
+    "description": "Mandrill lib for silex",
+    "keywords": ["mandrill", "lib"],
+    "type": "library",
+    "homepage": "https://github.com/Tripnity/Mandrill",
+    "authors": [
+        {
+            "name": "Tripnity"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-0": { "Mandrill": "src/" }
+    }
+}
