@@ -1,4 +1,5 @@
 <?php
+namespace Mandrill;
 
 class Mandrill_Users {
     public function __construct(Mandrill $master) {
